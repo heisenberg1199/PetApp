@@ -1,0 +1,14 @@
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\bin\Debug\net8.0\PetMan.exe
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\bin\Debug\net8.0\PetMan.deps.json
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\bin\Debug\net8.0\PetMan.runtimeconfig.json
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\bin\Debug\net8.0\PetMan.dll
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\bin\Debug\net8.0\PetMan.pdb
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.AssemblyInfo.cs
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.dll
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\refint\PetMan.dll
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.pdb
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\PetMan.genruntimeconfig.cache
+C:\Users\USER\Desktop\SolutionPetMan\PetMan\obj\Debug\net8.0\ref\PetMan.dll
