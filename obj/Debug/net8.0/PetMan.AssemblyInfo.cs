@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetMan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c832f1dcddfd38b65e3cce57056119f2966d295")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetMan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetMan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

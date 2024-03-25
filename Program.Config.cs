@@ -26,6 +26,8 @@ namespace PetMan
             r.Register(route: "about", About);
             r.Register(route: "help", Help);
 
+            r.Register(route: "shell", action: p => shellController.Shell(p["path"]));
+            r.Register(route: "pdf", action: p => shellController.ToPdf(Extension.ToInt(p["id"]), p["path"]));
 
             Pet toPet(Parameter p)
             {

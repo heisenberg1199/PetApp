@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/PetMan.csproj": {}
+    "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\PetMan.csproj": {}
   },
   "projects": {
-    "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/PetMan.csproj": {
+    "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\PetMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/PetMan.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\PetMan.csproj",
         "projectName": "PetMan",
-        "projectPath": "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/PetMan.csproj",
-        "packagesPath": "/Users/buingoctuongvi/.nuget/packages/",
-        "outputPath": "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/obj/",
+        "projectPath": "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\PetMan.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/buingoctuongvi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
