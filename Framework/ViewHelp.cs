@@ -8,7 +8,7 @@ namespace PetMan.Framework
         {
             
             Write($"{label}:", labelColor);
-            WriteLine($"{oldValue}");
+            WriteLine($"{oldValue}", ConsoleColor.Yellow);
             Write($"New value ({label}) >>:", ConsoleColor.Yellow);
             Console.ForegroundColor = valueColor;
             string newValue = Console.ReadLine() ?? "";
@@ -29,7 +29,7 @@ namespace PetMan.Framework
         public static string InputString(string label, string oldValue, ConsoleColor labelColor = ConsoleColor.Magenta, ConsoleColor valueColor = ConsoleColor.White)
         {
             Write($"{label}:", labelColor);
-            WriteLine(oldValue);
+            WriteLine(oldValue, ConsoleColor.Yellow);
             Console.ForegroundColor = valueColor;
             Write($"New value ({label}) >>:", ConsoleColor.Yellow);
             string newValue = Console.ReadLine() ?? "";

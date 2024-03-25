@@ -21,6 +21,8 @@ namespace PetMan.View
             Console.WriteLine($"Species:                    {model.Species}");
             Console.WriteLine($"Physical Description:       {model.PhysicalDescription}");
             Console.WriteLine($"Persionality Description:   {model.PersonalityDescription}");
+            Console.WriteLine($"Image:                      {model.Image}");
+            Console.WriteLine($"Adopt:                      {model.Adopt}");
         }
     }
 }

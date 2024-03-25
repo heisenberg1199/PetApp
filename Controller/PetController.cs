@@ -1,7 +1,6 @@
 using PetMan.Data;
 using PetMan.View;
 using PetMan.Framework;
-using System.Collections.Concurrent;
 using PetMan.Models;
 
 namespace PetMan.Controller
@@ -18,10 +17,10 @@ namespace PetMan.Controller
             var pet = Repository.Select(id);
             Render(new PetSingleView(pet), path);
         }
-        public void List()
+        public void List(string path = "")
         {
             var pet = Repository.Select();
-            Render(new PetListView(pet));
+            Render(new PetListView(pet), path);
         }
         public void Create(Pet pet = null)
         {
@@ -44,6 +43,27 @@ namespace PetMan.Controller
             }
             Repository.UpdatePet(id, pet);
             Success("Pet updated!");
+        }
+        
+        public void Delete(int id, bool process = false)
+        {
+            if (process == false)
+            {
+                var pet = Repository.Select(id);
+                Confirm($"Do you want to delete this pet ({pet.NickName}) ?", $"pet delete ? id = {pet.Id}");
+            }
+            Repository.DeletePet(id);
+            Success("Pet deleted!");
+        }
+        public void Filter(string key)
+        {
+            var model = Repository.Select(key);
+            if (model.Length == 0)
+            {
+                Info("No match pet found!");
+                return;
+            }
+            Render(new PetListView(model));
         }
     }
 }

@@ -1,5 +1,3 @@
-using System.ComponentModel.Design;
-using Microsoft.VisualBasic;
 using PetMan.Models;
 
 namespace PetMan.Data
@@ -56,6 +54,14 @@ namespace PetMan.Data
             p.PersonalityDescription = pet.PersonalityDescription;
             p.Adopt = p.Adopt;
             p.Image = p.Image;
+            return true;
+        }
+
+        public bool DeletePet(int id)
+        {
+            var p = Select(id);
+            if (p == null) return false;
+            _context.Pets.Remove(p);
             return true;
         }
     }

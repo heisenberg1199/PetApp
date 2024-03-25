@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "/Users/buingoctuongvi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\PetMan.csproj",
+      "projectUniqueName": "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/PetMan.csproj",
       "projectName": "PetMan",
-      "projectPath": "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\PetMan.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\SolutionPetMan\\PetMan\\obj\\",
+      "projectPath": "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/PetMan.csproj",
+      "packagesPath": "/Users/buingoctuongvi/.nuget/packages/",
+      "outputPath": "/Users/buingoctuongvi/Desktop/SolutionPetApp/PetApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/buingoctuongvi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
