@@ -64,5 +64,10 @@ namespace PetMan.Data
             _context.Pets.Remove(p);
             return true;
         }
+
+        public void Clear()
+        {
+            _context.Pets.Clear();
+        }
     }
 }

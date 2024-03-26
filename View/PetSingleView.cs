@@ -23,6 +23,7 @@ namespace PetMan.View
             Console.WriteLine($"Persionality Description:   {model.PersonalityDescription}");
             Console.WriteLine($"Image:                      {model.Image}");
             Console.WriteLine($"Adopt:                      {model.Adopt}");
+            Console.WriteLine($"File Report:                {model.FileReport}");
         }
     }
 }

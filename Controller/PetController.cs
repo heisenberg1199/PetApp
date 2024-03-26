@@ -65,5 +65,23 @@ namespace PetMan.Controller
             }
             Render(new PetListView(model));
         }
+
+        public void Sort(string key)
+        {
+            var pet = Repository.Select();
+            key = key.ToLower();
+            if (key == "age")
+            {
+                Array.Sort(pet, delegate(Pet x, Pet y) { return x.Age.CompareTo(y.Age); });
+                Render(new PetListView(pet));
+                return;
+            }
+            if (key == "name")
+            {
+                Array.Sort(pet, delegate(Pet x, Pet y) { return x.NickName.CompareTo(y.NickName); });
+                Render(new PetListView(pet));
+                return;
+            }
+        }
     }
 }

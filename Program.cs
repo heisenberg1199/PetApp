@@ -6,7 +6,7 @@ namespace PetMan
     {
         public static void Main(string[] args)
         {
-            Console.Clear();
+            // Console.Clear();
             Config();
             while (true)
             {

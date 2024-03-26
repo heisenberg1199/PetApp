@@ -58,5 +58,6 @@ namespace PetMan.Models
         /// pet image
         /// </summary>
         public string Image { get; set; } = "";
+        public string FileReport { get; set; } = "";
     }
 }
